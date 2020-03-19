@@ -6,7 +6,7 @@ public class JSON extends Document {
     public JSON(String[] continut) {
         super(continut);
     }
-    private String a;
+    private int a;
     @Override
     public String[] analizeaza() {
         String[] res = new String[continut.length];
