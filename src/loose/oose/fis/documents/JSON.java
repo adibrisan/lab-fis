@@ -10,7 +10,7 @@ public class JSON extends Document {
     @Override
     public String[] analizeaza() {
         String[] res = new String[continut.length];
-        int      pos = 0;
+        int      pos = 1;
 
         for (String cuvant : continut) {
             if (!cuvant.contains(":")) {
